@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/fotorama.css">
+    <title>Rafael Ancel - Francisco Lanusse</title>
+</head>
+<body>
+    <header class="container-fluid fixed-top">       
+        <nav class="row navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+                <a class="navbar-brand" href="#">
+                  <img src="imagenes/logo/logo.png" alt="logo"></a>
+                  
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barra" aria-controls="barra" aria-expanded="false" aria-label="Botón hamburguesa">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="barra">
+                    <ul class="navbar-nav text-center ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#nosotros" data-ancla="60">Nosotros</a>
+                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#productos" data-ancla="60">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seguridad" data-ancla="60">Seguridad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#familia" data-ancla="60">Familia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tu-hogar" data-ancla="60">Tu Hogar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carrito" data-ancla="60">Compras</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#formulario" data-ancla="60">Formulario</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="nosotros" class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="nosotros">Sobre Nosotros</h2>
+          <p class="texto">HomeBot es una avanzada aplicación de asistente virtual diseñada específicamente para la gestión del hogar, que te permite realizar diversas tareas de manera eficiente y mantener un control total sobre tu entorno. Con HomeBot, disfrutarás de la comodidad de mantener tu hogar organizado y en perfecto orden, brindándote la tranquilidad y la facilidad que necesitas en tu vida diaria.</p>
+         
+        </div>
+      </div>
+    </section>
+     
+        <section id="productos">
+          <h2 class="titulos">Productos dentro del Hogar</h2>
+          <div class="container p-0 pt-0 slider">
+              <div id="galeria" class="carousel slider" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#galeria" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
+                      <button type="button" data-bs-target="#galeria" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+                      <button type="button" data-bs-target="#galeria" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+                      <button type="button" data-bs-target="#galeria" data-bs-slide-to="3" aria-label="Imagen 4"></button>
+                  </div>
+          
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img class="d-block w-100" src="imagenes/slider/slider-1.png" alt="television">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h2>Dentro del Hogar</h2>
+                                  <p>Television</p>
+                              </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block w-100" src="imagenes/slider/slider-2.png" alt="camara">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h2>Dentro del Hogar</h2>
+                              <p>Camara de Seguridad</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="imagenes/slider/slider-3.png" alt="aire">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Dentro del Hogar</h2>
+                            <p>Aire Acondicionado</p>
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                          <img class="d-block w-100" src="imagenes/slider/slider-4.png" alt="panel-solar">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h2>Dentro del Hogar</h2>
+                              <p>Panel Solar</p>
+                          </div>
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#galeria" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#galeria" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Siguiente</span>
+                  </button>
+              </div>
+          </div>
+        </section>
+
+
+        <section id="seguridad" class="container">
+          <h2 class="titulos">Camaras</h2>
+  
+          <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="imagenes/galeria/pc/cam1.jpg" data-fancybox="tp" data-caption="cam-1" data-srcset="imagenes/galeria/pc/cam1.jpg 1200w, imagenes/galeria/tab/cam1.jpg 991w, imagenes/galeria/cel/cam1.jpg 576w">
+                  <img src="imagenes/miniaturas/miniatura-1.png" alt="mini1">
+                </a>
+              </div>
+  
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="imagenes/galeria/pc/cam2.jpg" data-fancybox="tp" data-caption="cam-2" data-srcset="imagenes/galeria/pc/cam2.jpg 1200w, imagenes/galeria/tab/cam2.jpg 991w, imagenes/galeria/cel/cam2.jpg 576w">
+                  <img src="imagenes/miniaturas/miniatura-2.png" alt="mini2">
+                </a>
+              </div>
+  
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="imagenes/galeria/pc/cam3.jpg" data-fancybox="tp" data-caption="cam-3" data-srcset="imagenes/galeria/pc/cam3.jpg 1200w, imagenes/galeria/tab/cam3.jpg 991w, imagenes/galeria/cel/cam3.jpg 576w">
+                  <img src="imagenes/miniaturas/miniatura-3.png" alt="mini3">
+                </a>
+              </div>
+  
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="imagenes/galeria/pc/cam4.jpg" data-fancybox="tp" data-caption="cam-4" data-srcset="imagenes/galeria/pc/cam4.jpg 1200w, imagenes/galeria/tab/cam4.jpg 991w, imagenes/galeria/cel/cam4.jpg 576w">
+                  <img src="imagenes/miniaturas/miniatura-4.png" alt="mini4">
+                </a>
+              </div>
+  
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="imagenes/galeria/pc/cam5.jpg" data-fancybox="tp" data-caption="cam-5" data-srcset="imagenes/galeria/pc/cam5.jpg 1200w, imagenes/galeria/tab/cam5.jpg 991w, imagenes/galeria/cel/cam5.jpg 576w">
+                  <img src="imagenes/miniaturas/miniatura-5.png" alt="mini5">
+                </a>
+              </div>
+  
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="imagenes/galeria/pc/cam6.jpg" data-fancybox="tp" data-caption="cam-6" data-srcset="imagenes/galeria/pc/cam6.jpg 1200w, imagenes/galeria/tab/cam6.jpg 991w, imagenes/galeria/cel/cam6.jpg 576w">
+                  <img src="imagenes/miniaturas/miniatura-6.png" alt="mini6">
+                </a>
+              </div>
+  
+             </div>
+  
+      </section>
+
+
+      <section id="familia" class="container pt-2">
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h2 class="titulos">Familia dentro del Hogar</h2>
+            <div class="container">
+              <div class="scroll">
+                <div class="tarjeta" style="width: 18rem;">
+                  <img src="imagenes/cards/fam-1.jpg" class="card-img-top" alt="roxana">
+                  <div class="card-body">
+                    <h2 class="card-title h4">Roxana</h2>
+                    <h2 class="card-title h5">Tareas</h2>
+                    <p class="card-text">barrer el piso</p>
+                    <p class="card-text">barrer el piso</p>
+                    <p class="card-text">barrer el piso</p>
+                  </div>
+                </div>
+              <div class="tarjeta" style="width: 18rem;">
+                <img src="imagenes/cards/fam-2.jpg" class="card-img-top" alt="juan">
+                <div class="card-body">
+                  <h2 class="card-title h4">Juan</h2>
+                  <h2 class="card-title h5">Tareas</h2>
+                  <p class="card-text">barrer el piso</p>
+                  <p class="card-text">barrer el piso</p>
+                  <p class="card-text">barrer el piso</p>
+                </div>
+              </div>
+              <div class="tarjeta" style="width: 18rem;">
+                <img src="imagenes/cards/fam-3.jpg" class="card-img-top" alt="alejandro">
+                <div class="card-body">
+                  <h2 class="card-title h4">Alejandro</h2>
+                  <h2 class="card-title h5">Tareas</h2>
+                  <p class="card-text">barrer el piso</p>
+                  <p class="card-text">barrer el piso</p>
+                  <p class="card-text">barrer el piso</p>
+                </div>
+              </div>
+              <div class="tarjeta" style="width: 18rem;">
+                <img src="imagenes/cards/fam-4.jpg" class="card-img-top" alt="esteban">
+                <div class="card-body">
+                  <h2 class="card-title h4">Esteban</h2>
+                  <h2 class="card-title h5">Tareas</h2>
+                  <p class="card-text">barrer el piso</p>
+                  <p class="card-text">barrer el piso</p>
+                  <p class="card-text">barrer el piso</p>
+                </div>
+              </div>
+              <div class="tarjeta" style="width: 18rem;">
+                <img src="imagenes/cards/fam-5.jpg" class="card-img-top" alt="nicolas">
+                <div class="card-body">
+                  <h2 class="card-title h4">Nicolas</h2>
+                  <h2 class="card-title h5">Tareas</h2>
+                  <p class="card-text">barrer el piso</p>
+                  <p class="card-text">barrer el piso</p>
+                  <p class="card-text">barrer el piso</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+
+
+      <section id="tu-hogar" class="container pt-2">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <h2 class="titulos">Tu Hogar</h2>
+            <figure>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9925235310825!2d-58.39819738519526!3d-34.604350565037734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaea670d4e67%3A0x2198c954311ad6d9!2sDa%20Vinci!5e0!3m2!1ses!2sar!4v1569528612932!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+
+    <section id="carrito" class="container pt-2">
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h2 class="titulos">Articulos de posible interes</h2>
+            <div class="container">
+              <div class="scroll">
+                <div class="tarjeta" style="width: 18rem;">
+                  <img src="imagenes/cards/aire.jpg" class="card-img-top" alt="aire">
+                  <div class="card-body">
+                    <h2 class="card-title h5" id="card-title">Aire Acondicionado</h2>
+                    <a href="https://www.mercadolibre.com.ar/" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              <div class="tarjeta" style="width: 18rem;">
+                <img src="imagenes/cards/cam-1.jpg" class="card-img-top" alt="cam-1">
+                <div class="card-body">
+                  <h2 class="card-title h5" id="card-title">Camara de Seguridad</h2>
+                  <a href="https://www.mercadolibre.com.ar/" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="tarjeta" style="width: 18rem;">
+                <img src="imagenes/cards/cam-2.jpg" class="card-img-top" alt="cam-2">
+                <div class="card-body">
+                  <h2 class="card-title h5" id="card-title">Camara de Seguridad</h2>
+                  <a href="https://www.mercadolibre.com.ar/" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="tarjeta" style="width: 18rem;">
+                <img src="imagenes/cards/tele.jpg" class="card-img-top" alt="tele">
+                <div class="card-body">
+                  <h2 class="card-title h5" id="card-title">TV Inteligente</h2>
+                  <a href="https://www.mercadolibre.com.ar/" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="tarjeta" style="width: 18rem;">
+                <img src="imagenes/cards/panel-solar.jpg" class="card-img-top" alt="panel-solar">
+                <div class="card-body">
+                  <h2 class="card-title h5" id="card-title">Panel Solar</h2>
+                  <a href="https://www.mercadolibre.com.ar/" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              </div>
+                  </div>
+          </div>
+        </div>
+
+    </section>
+
+    <section id="form">
+      <h2 class="contacto">Contacto</h2>
+
+      <section class="d-flex justify-content-center align-items-center">
+          <div class="card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4 p-4"> 
+              <div class="mb-4 d-flex justify-content-start align-items-center">
+            
+                  <h4>  <i class="bi bi-chat-left-quote"></i> &nbsp; Contacto</h4>
+              </div>
+              <div class="mb-1">
+                  <form id = "contacto" action="enviar.php" method="post" enctype="application/x-www-form-urlencoded" >
+                      <div class="mb-4 d-flex justify-content-between"> 
+                          <div>
+                              <label for="nombre"> <i class="bi bi-person-fill"></i> Nombre</label>
+                              <input type="text" class="form-control" name="nombre" id="nombre" placeholder= "ej: Gabriel" required>
+                              <div class="nombre text-danger "></div>
+                          </div>
+                          <div >
+                              <label for="apellido"> <i class="bi bi-person-bounding-box"></i> Apellido</label>
+                              <input type="text" class="form-control" name="apellido" id="apellido" placeholder= "ej: Pacheco" required>
+                              <div class="apellido text-danger"></div>
+                          </div>
+                      </div>
+                      <div class="mb-4">
+                          <label for="correo"><i class="bi bi-envelope-fill"></i> Correo</label>
+                          <input type="email" class="form-control" name="correo" id="correo" placeholder= "ej: gpmcheco@mail.com" required>
+                          <div class="correo text-danger"></div>
+                      
+                      </div> 
+                      <div class="mb-4">
+                          <label><i class="bi bi-gender-ambiguous"></i> Sexo: </label>
+                          <input type="radio" class="form-check-input"  name="sexo"  value="masculino" > Masculino
+                          <input type="radio" class="form-check-input"  name= "sexo" value="femenino" > Femenino
+                          <div class="sexo text-danger"></div>
+                      </div>  
+                      <div class="mb-4">
+                          <label for="mensaje"> <i class="bi bi-chat-right-dots-fill" ></i> Mensaje</label>
+                          <textarea name="mensaje" id="mensaje" class="form-control" placeholder="ej: hola" required></textarea>
+                          <div class="mensaje text-danger"></div>
+                      </div> 
+                  
+                      <div class="mb-2">
+                          <button id ="botton" class="col-12 btn btn-primary d-flex justify-content-between ">
+                              <span>Enviar</span><i id="icono" class="bi bi-cursor-fill"></i>
+                          </button>
+                      </div> 
+                            
+                  </form>
+              </div>
+          </div>
+      </section>
+  </section>
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+
+          <div class="col-lg-4 col-md-6 col-sm-12" id="rafa">
+            <a href="imagenes/galeria-footer/pc/rafa.jpg" data-fancybox="tp" data-caption="rafa" data-srcset="imagenes/galeria-footer/pc/rafa.jpg 1200w, imagenes/galeria-footer/tab/rafa.jpg 991w, imagenes/galeria-footer/cel/rafa.jpg">
+              <img src="imagenes/miniaturas/rafa.jpg" alt="mini-rafa">
+            </a>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-12" id="fran">
+            <a href="imagenes/galeria-footer/pc/fran.jpg" data-fancybox="tp" data-caption="fran" data-srcset="imagenes/galeria-footer/pc/fran.jpg 1200w, imagenes/galeria-footer/tab/fran.jpg 991w, imagenes/galeria-footer/cel/fran.jpg">
+              <img src="imagenes/miniaturas/fran.jpg" alt="mini-fran">
+            </a>
+          </div>
+
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          </a>
+          <span class="mb-3 mb-md-0 text-muted" id="rafa-fran">Copyright © Da Vinci - Diseño Multimedial - Maquetado y desarrollo web - DM2CP - 2023 -Turno mañana - Rafael Ancel - Francisco Lanusse</span>
+        
+        </div>
+      </footer>
+    </div>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/fotorama.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/animaScroll.js"></script>
+</body>
+</html>
